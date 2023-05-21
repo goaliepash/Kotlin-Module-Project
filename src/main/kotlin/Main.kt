@@ -1,3 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import view.ArchivesScreen
+
+fun main() {
+    val archiveScreen = ArchivesScreen()
+    archiveScreen.start()
 }
